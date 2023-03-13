@@ -10,6 +10,9 @@ export const Block: React.FC<BlockProps> = ({ key, rows }) => {
     backgroundColor: "lightgray",
     border: "1px solid red",
     padding: "10px",
+    margin: "10px",
+    minWidth: "300px",
+    minHeight: "300px",
     gridRowEnd: `span ${rows}`,
   };
 
